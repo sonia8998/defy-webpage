@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Charis SIL', serif;
+}
+.header {
+    min-height: 100vh;
+min-width: 100%;
+background-image:url(Images/finalbackground.png);
+
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+.transparent-bgopc{
+	background: pink;
+    padding: 20px;
+    color: rgb(240, 162, 220);
+    text-align: center;
+    font-size: 26px;
+  	opacity: 0.6;
+}
+nav{
+    display: flex;
+    padding: 7% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+    .nav-links ul li a{
+        color: rgb(5, 5, 5);
+        text-decoration: wavy;
+        font-size: 25px;
+        text-shadow: 20ch;
+        text-decoration-color: beige;
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0;
+        height: 2px;
+        background: white;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+
+    
+    }
+    .nav-links ul li:hover::after {
+        width: 100%;}
+
+        img {
+            border-radius: 50%;
+          }
+
+.Horroscope{
+width: 100%;
+margin: auto;
+text-align: center;
+padding-top: 50px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .Horroscope-col {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+
+.Horroscope {
+    flex-basis: 1500pt;
+    background: rgb(241, 219, 241);
+    margin-top: 5%;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size : 20pt;
+}
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space between;
+
+}
+.Page3{
+    margin: 70px 0;
+}
+.Column{
+    flex: 30%;
+    min-width: 250 px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.Page3{
+
+    flex-basis: 1500pt;
+    background: rgb(252, 250, 169);
+    margin-top: 5%;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space between;
+}
+
+
+
+
+.Page4{
+    margin: 70px 0;
+}
+
+.column1{
+    flex: 30%;
+    min-width: 250 px;
+    margin-bottom: -30px;
+    margin-left: 100px;}
+
+
+
+.Page4{
+    flex-basis: 1500pt;
+    background: rgb(228, 240, 230);
+    margin-top: 1%;
+    
+
+}
+.row1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space between;
+    
+    
+}
+.Page5{
+    margin: 70px 0;
+}
+.column2{
+    flex: 30%;
+    min-width: 250 px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+.Page5{
+
+    flex-basis: 1500pt;
+    background: rgb(252, 250, 169);
+    margin-top: 5%;
+}
+
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space between;
+    
+}
+.Author {
+    flex-basis: 1500pt;
+    background: rgb(241, 219, 241);
+    margin-top: 5%;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size : 20pt;
+}
